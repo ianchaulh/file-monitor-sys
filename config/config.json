@@ -1,0 +1,23 @@
+{
+    "directories": {
+        "source_dirs": ["C:\\Users\\Ian Chau\\Desktop\\test__", "C:\\Users\\Ian Chau\\Desktop\\HKPTRC"]
+    },
+    "files": {
+        "target_files": [],
+        "keywords": ["hello", "test"],
+        "formats": [".xlsx", ".py"]
+    },
+    "parameters": {
+        "notification_settings": {
+            "enabled": true,
+            "notification_types": ["system", "email"],
+            "recipients": ["ianchau379@gmail.com"]
+        },
+        "log_settings": {
+            "log_file_path": "/log/records.log",
+            "log_level": "INFO",
+            "error_log_file_path": "/log/errors.log",
+            "error_log_level": "ERROR"
+        }
+    }
+}
